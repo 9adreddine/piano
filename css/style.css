@@ -1,0 +1,41 @@
+body{
+    background-color: crimson;
+}
+.b1{
+    margin-left: 520px;
+    height: 300px;
+    width: 90px;
+   
+    display: inline-block;
+}
+.b2{
+    margin-top: 200px;
+    margin-left: 2px;
+    height: 300px;
+    width: 90px;
+    display: inline-block;
+}
+.b3{
+    
+    margin-left: -527px;
+    height: 200px;
+    width: 90px;
+    
+    background-color: black;
+}
+.b4{
+    
+    margin-left: 100px;
+    height: 200px;
+    width: 90px;
+    
+    background-color: black;
+}
+.b5{
+    
+    margin-left: 100px;
+    height: 200px;
+    width: 90px;
+    
+    background-color: black;
+}

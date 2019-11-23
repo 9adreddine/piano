@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pyano</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onkeypress="myFunction(event)" >
+        <audio id="you" src="sound/040.wav"></audio>
+        <audio id="you1" src="sound/041.wav"></audio>
+        <audio id="you2" src="sound/042.wav"></audio>
+        <audio id="you3" src="sound/043.wav"></audio>
+        <audio id="you4" src="sound/044.wav"></audio>
+        <audio id="you5" src="sound/045.wav"></audio>
+        <audio id="you6" src="sound/046.wav"></audio>
+        <audio id="you7" src="sound/047.wav"></audio>
+        <audio id="you8" src="sound/048.wav"></audio>
+        <audio id="you9" src="sound/049.wav"></audio>
+        
+    <button class="b1" onclick="badr()"></button>
+    <button class="b2" onclick="badr1()"></button>
+    <button class="b2" onclick="badr2()"></button>
+    <button class="b2" onclick="badr3()"></button>
+    <button class="b2" onclick="badr4()"></button>
+    <button class="b2" onclick="badr5()"></button>
+    <button class="b3" onclick="badr9()"></button>
+    <button class="b4" onclick="badr7()"></button>
+    <button class="b5" onclick="badr8()"></button>
+    <script>
+function myFunction(event) {
+  var x = event.keyCode;
+  if(x == 97){badr();}
+  if(x == 98){badr1();}
+  if(x == 99){badr2();}
+  if(x == 100){badr3();}
+  if(x == 101){badr4();}
+  if(x == 102){badr5();}
+  if(x == 103){badr6();}
+  if(x == 104){badr7();}
+  if(x == 105){badr8();}
+  
+}
+    
+    function badr(){
+        var x = document.getElementById("you");
+        x.play();
+    }
+    function badr1(){
+        var x = document.getElementById("you1");
+        x.play();
+    }
+    function badr2(){
+        var x = document.getElementById("you2");
+        x.play();
+    }
+    function badr3(){
+        var x = document.getElementById("you3");
+        x.play();
+    }
+    function badr4(){
+        var x = document.getElementById("you4");
+        x.play();
+    }
+    function badr5(){
+        var x = document.getElementById("you5");
+        x.play();
+    }
+    function badr6(){
+        var x = document.getElementById("you6");
+        x.play();
+    }
+    function badr7(){
+        var x = document.getElementById("you7");
+        x.play();
+    }
+    function badr8(){
+        var x = document.getElementById("you8");
+        x.play();
+    }
+    function badr9(){
+        var x = document.getElementById("you9");
+        x.play();
+    }
+    </script>
+    
+    
+</body>
+</html>
